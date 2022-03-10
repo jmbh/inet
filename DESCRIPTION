@@ -1,0 +1,12 @@
+Package: inet
+Type: Package
+Title: Performing Inference on Networks with Regularization
+Version: 0.1.0
+Depends: 	R (>= 3.5.0)
+Author: Lourens Waldorp <waldorp@uva.nl>, Jonas Haslbeck <jonashaslbeck@gmail.com>
+Maintainer: Jonas Haslbeck <jonashaslbeck@gmail.com>
+Description: Performs inference with the lasso in Gaussian Graphical Models. The package consists of wrappers for functions from the hdi package.
+Encoding: UTF-8
+LazyData: true
+License: GPL (>= 2)
+Imports: hdi, glmnet
